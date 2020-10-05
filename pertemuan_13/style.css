@@ -1,0 +1,56 @@
+/* img {
+
+    display: block;
+    background-color:lightblue;
+
+    padding: 20px;
+    border: 10px solid red ;
+    margin: 20px;
+
+
+} */
+
+.image_1{
+
+    
+        display: block;
+        background-color:lightblue;
+        width: 180px;
+    
+        padding: 20px ;
+        border: 10px solid red ;
+        margin-left: 20px;
+    
+}
+
+.image_2{
+
+
+    
+    display: block;
+
+    
+    background-color:lightblue;
+    width: 180px;
+    padding: 20px;
+    border: 10px solid red ;
+    margin-left: 260px;
+
+}
+
+.image_3{
+
+    
+    display: block;
+    background-color:lightblue;
+    width: 180px;
+
+
+    padding: 20px;
+    border: 10px solid red ;
+    margin-left: 500px ;
+    ;
+    
+
+
+}
