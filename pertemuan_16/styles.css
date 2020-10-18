@@ -6,7 +6,7 @@ body{
     100%=16px
     */
     font-size: 2em;  
-    /* text-align: center; */
+    text-align: center; 
 }
 
 h1{
@@ -14,8 +14,8 @@ h1{
     font-size: 5.625rem;   
     /* font-size: 90px; */
     /* font-size: 90rem; */
-    width: 50%;
-    margin: 0 auto;
+    /* width: 50%;
+    margin: 0 auto; */
 }
 p{
     font-family: 'Nunito', sans-serif;
