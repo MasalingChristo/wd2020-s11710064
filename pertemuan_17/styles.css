@@ -1,0 +1,44 @@
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial, sans-serif;
+    /*font-size: 2em;satuan ukuran em, akan diwariskan kebagian yang lain  
+    font-size: 32px; jika ukuran px, maka ukuran tidak di wariskan ke bagian yang lain 
+    font-size: 2rem; rem tidak diwariskan kebagian lain 
+    100%=16px
+    */
+    font-size: 2em;
+    text-align: center; 
+}
+
+div.USE_PX{
+
+    font-size: 50px;
+    background-color: rgb(128, 208, 208);
+
+}
+div.USE_EM{
+
+    font-size: 3em;
+    background-color: rgb(176, 220, 220);
+
+}
+
+div.USE_REM{
+
+    font-size: 3rem;
+    background-color: rgb(84, 144, 144);
+
+}
+/* 
+h1{
+    font-family: 'Give You Glory', cursive;
+    font-size: 5.625rem;    */
+    /* font-size: 90px; */
+    /* font-size: 90rem; */
+    /* width: 50%;
+    margin: 0 auto; 
+ } */
+
+/* 
+p{
+    font-family: 'Nunito', sans-serif;
+} */
