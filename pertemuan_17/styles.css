@@ -5,13 +5,15 @@ body{
     font-size: 2rem; rem tidak diwariskan kebagian lain 
     100%=16px
     */
-    font-size: 2em;
+    font-size: 2rem;
     text-align: center; 
 }
 
 div.USE_PX{
 
-    font-size: 50px;
+    font-family:Verdana, Tahoma, sans-serif;
+
+    font-size: 42px;
     background-color: rgb(128, 208, 208);
 
 }
@@ -24,7 +26,7 @@ div.USE_EM{
 
 div.USE_REM{
 
-    font-size: 3rem;
+    font-size: 7rem;
     background-color: rgb(84, 144, 144);
 
 }
