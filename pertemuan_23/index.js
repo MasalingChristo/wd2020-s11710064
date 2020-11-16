@@ -87,7 +87,6 @@ let keterangan=function(BMI){
         console.log("Body Mass Index anda adalah :" +BMI);
         console.log("Mildly icreased");
     }
-    
 
 };
 
