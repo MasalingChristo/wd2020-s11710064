@@ -70,7 +70,7 @@ console.log ("tinggi badan anda adalah :" + tinggi +" cm");
 
 let BMI= berat /(tinggi * tinggi);
 
-console.log("Body Mass Index anda adalah :" + BMI );
+console.log("Body Mass Index anda adalah :" + BMI);
 
 
 
