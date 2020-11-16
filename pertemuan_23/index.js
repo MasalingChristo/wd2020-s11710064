@@ -61,16 +61,41 @@
 
 // let angka = prompt ("masukkan angka : ");
 
+    
 
-let berat = prompt ("Masukkan Berat Badan anda :")
-let tinggi = prompt ("Masukkan tinggi Badan anda  : ");
+ let berat = prompt ("Masukkan Berat Badan anda :")
+ let tinggi = prompt ("Masukkan tinggi Badan anda  : ");
 
-console.log ("Berat Badan anda adalah :" + berat + " kg");
+ console.log ("Berat Badan anda adalah :" + berat + " kg");
 console.log ("tinggi badan anda adalah :" + tinggi +" cm");
 
 let BMI= berat /(tinggi * tinggi);
 
-console.log("Body Mass Index anda adalah :" + BMI);
+//let BMI;
+
+let keterangan=function(BMI){
+
+    if(BMI < 18.5){
+        console.log("Body Mass Index anda adalah :" + BMI);
+        console.log("it's normal");
+    }
+    else if(BMI >=18.5 && BMI <24.9){
+        console.log("Body Mass Index anda adalah :" + BMI);
+        console.log("Avarage");
+    }
+    else if (BMI >=25.0 && BMI <29.9){
+        console.log("Body Mass Index anda adalah :" +BMI);
+        console.log("Mildly icreased");
+    }
+    //else {
+    //     console.log("so boleh ba kira");
+    // }
+
+};
+
+keterangan(BMI)
+
+
 
 
 
