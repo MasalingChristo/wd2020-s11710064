@@ -47,8 +47,8 @@ function helloWorld()
     document.getElementsByTagName('p')[1].innerText = value
     document.querySelector('.header').style.color ="red"
     document.querySelector('.header').style.fontSize = '3em'
-    document.querySelector('.header').style.backgroundColor = "yellow"
+    document.querySelector('.header').style.backgroundColor = "green"
 
     let span = document.getElementsByTagName('span')[0]
-    span.style.color = 'green'
+    span.style.color = 'yellow'
 }
